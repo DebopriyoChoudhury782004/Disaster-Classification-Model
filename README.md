@@ -133,14 +133,10 @@ Both models demonstrated high accuracy in classifying disaster images, with VGG1
 ## **Project Structure**
 ```
 disaster-classification/
-├── data/                     # Dataset folder (not included in repo)
+├── dataset/                     # Dataset folder (not included in repo)
 ├── models/                   # Saved trained models (.h5 files)
-├── src/
-│   ├── custom_cnn.py         # Custom CNN model implementation
-│   ├── vgg16_model.py        # VGG16 transfer learning implementation
-│   ├── train.py              # Training script for both models
-│   ├── evaluate.py           # Evaluation script for both models
-│   └── predict.py            # Script for making predictions on new images
+├── custom_cnn.py         # Custom CNN model implementation
+├── vgg16_model.py        # VGG16 transfer learning implementation
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # Project documentation (this file)
 
